@@ -15,12 +15,12 @@ $desconto = "Desconto de 10%";
 // Processamento 
 $valorCompra = $qtdIngressos * $valorIngresso;
 $valorFinal = $valorCompra;
-$valorDesconto = $valorCompra * 10/100;
+$valorDesconto = $valorCompra * 10 / 100;
 
 
 // Se forem comprados mais de 5 ingressos, aplique um desconto de 10%.
 if ($qtdIngressos > 5) {
-    $valorFinal= $valorCompra - $valorDesconto;
+    $valorFinal = $valorCompra - $valorDesconto;
 } else {
     $desconto = "Sem desconto";
 }
