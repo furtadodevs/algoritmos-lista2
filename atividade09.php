@@ -46,11 +46,11 @@ if ($subtotal > 200) {
         ● Considere um frete de R$ 20,00.
         ● Se o subtotal for maior que R$ 200,00, o frete deverá ser zerado.</p>
 
-        <p> <?php echo ("Nome do produto: " . $nomeProduto); ?> </p>
-        <p> <?php echo ("Preço do produto: " . $precoProduto); ?> </p>
-        <p> <?php echo ("Quantidade do produto: " . $qtdProduto); ?> </p>
-        <p> <?php echo ("Valor do frete: " . $frete); ?> </p>
-        <p> <?php echo ("Valor final da compra: " . $subtotal); ?> </p>
+    <p> <?php echo ("Nome do produto: " . $nomeProduto); ?> </p>
+    <p> <?php echo ("Preço do produto: " . $precoProduto); ?> </p>
+    <p> <?php echo ("Quantidade do produto: " . $qtdProduto); ?> </p>
+    <p> <?php echo ("Valor do frete: " . $frete); ?> </p>
+    <p> <?php echo ("Valor final da compra: " . $subtotal); ?> </p>
 
 </body>
 
