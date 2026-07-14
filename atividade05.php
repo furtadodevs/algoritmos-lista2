@@ -22,6 +22,8 @@ $valorFinal= $valorConta;
 // Se o consumo for maior que 200 quilowatts, acrescente uma taxa de R$ 25,00.
 if ($consumoQuilowatts > 200) {
     $valorFinal = $valorConta + $taxa;
+} else {
+    $taxa = " Não foi cobrada taxa adicional";
 }
 
 ?>

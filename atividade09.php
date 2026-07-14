@@ -20,6 +20,8 @@ $subtotal = ($precoProduto * $qtdProduto) + $frete;
 
 if ($subtotal > 200) {
     $frete = 0;
+} else {
+    $frete = 20;
 }
 
 

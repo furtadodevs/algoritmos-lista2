@@ -22,7 +22,7 @@ $valorFinal = $somaDiarias;
 if ($qtdDiarias >= 5) {
     $valorFinal = $somaDiarias - $desconto;
 } else {
-    $desconto = 0;
+    $desconto = "Hospedagem sem desconto";
 }
 
 ?>

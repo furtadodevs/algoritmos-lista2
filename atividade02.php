@@ -11,18 +11,18 @@ Uma empresa deseja calcular o salário de um funcionário. Armazene e calcule
 
 // Entradas - Variáveis
 $nomeFuncionario = "Gabrielle";
-$valorHorasTrabalhadas = 15;
+$valorHorasTrabalhadas = 10;
 $qtdHorasTrabalhadas = 200;
 $salarioBruto = $valorHorasTrabalhadas * $qtdHorasTrabalhadas;
-$salarioLiquido = 0;
+$salarioLiquido = $salarioBruto;
 
-$desconto = 0;
+$desconto = 200;
 
 //Se o salário for maior que R$2500 desconte R$200
 if ($salarioBruto > 2500) {
     $salarioLiquido = $salarioBruto - 200;
 } else {
-    $salarioLiquido = $salarioBruto;
+    $desconto = "Esse funcionário não possui desconto";
 }
 
 
@@ -54,7 +54,7 @@ if ($salarioBruto > 2500) {
     <p><?php echo ("Quantidade de horas trabalhadas: " . $qtdHorasTrabalhadas); ?></p>
     <p><?php echo ("Salário bruto: " . $salarioBruto); ?></p>
 
-    <p><?php echo ("Valor do desconto: R$200,00"); ?></p>
+    <p><?php echo ("Valor do desconto: " . $desconto); ?></p>
 
     <p><?php echo ("Salário liquído: " . $salarioLiquido); ?></p>
 </body>

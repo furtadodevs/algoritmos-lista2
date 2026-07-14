@@ -19,6 +19,8 @@ $consumoMedio = $kilometro / $combustivel;
 //Se o consumo médio for maior ou igual a 12 km/l, exiba: O veículo teve um bom consumo
 if ($consumoMedio >= 12) {
     $consumo = "Bom consumo";
+} else {
+    $consumo = "Consumo abaixo do esperado";
 }
 
 
